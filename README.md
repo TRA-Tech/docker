@@ -2,7 +2,7 @@
 # Docker 
 ## İçindekiler
 - [Docker Swarm](https://github.com/TRA-Tech/docker/blob/main/docker-swarm.md)
-- Docker Compose 
+- [Docker Compose](https://github.com/TRA-Tech/docker/blob/main/docker-compose.md) 
 - Docker Volume
 - Docker Registry
 - Dockerfile
