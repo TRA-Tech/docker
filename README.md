@@ -38,7 +38,7 @@ Docker Engine, birçok bileşeni içerir. Bunlar arasında Docker Daemon, Docker
 - **Docker API**, uygulamaların Docker Engine'e erişmesine olanak tanır. Docker CLI gibi araçlar, Docker API'ye istek gönderir ve konteynerlerin, imajların ve diğer kaynakların yönetimini sağlar.
 - **Docker CLI**, kullanıcıların Docker Engine ile etkileşim kurmalarını sağlar. Kullanıcılar, konteynerlerin, imajların ve diğer Docker kaynaklarının oluşturulmasını, yönetilmesini ve silinmesini sağlayabilirler.
 - **Docker imajları**, konteynerlerin temel yapı taşıdır. İmajlar, bir uygulama ve bağımlılıklarını içerir ve konteynerlerin oluşturulmasında kullanılır.
-- **Docker registry**, Docker imajlarının depolanmasını ve paylaşılmasını sağlar. Docker Hub, Docker'ın varsayılan imaj deposudur ancak diğer registriesler de kullanılabilir.
+- **Docker registry**, Docker imajlarının depolanmasını ve paylaşılmasını sağlar. Docker Hub, Docker'ın varsayılan imaj deposudur ancak farkı registry sunucuları da özelleştirilerek kullanılabilir.
 
 Docker Engine, birçok platformda çalışabilir ve birçok programlama dili ve araç setiyle uyumlu olabilir. Bu nedenle, Docker Engine, uygulamaların hızlı ve güvenli bir şekilde dağıtılması için yaygın olarak kullanılan bir teknolojidir.
 
