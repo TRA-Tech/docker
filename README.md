@@ -4,7 +4,7 @@
 - [Docker Swarm](https://github.com/TRA-Tech/docker/blob/main/docker-swarm.md)
 - [Docker Compose](https://github.com/TRA-Tech/docker/blob/main/docker-compose.md) 
 - [Docker Volume](https://github.com/TRA-Tech/docker/blob/main/docker-volume.md)
-- Docker Registry
+- [Docker Registry](https://github.com/TRA-Tech/docker/blob/main/docker-registry.md)
 - Dockerfile
 
 
