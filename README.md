@@ -18,7 +18,7 @@ Docker, birçok farklı platformda çalışabilir ve uygulamaları hızlı ve g�
 
 Sonuç olarak, Docker, uygulama geliştirme ve dağıtım süreçlerinde büyük bir fark yaratan güçlü bir platformdur.
 
-Docker teknolojisinden önce, uygulama geliştirme ve dağıtımı için sanal makineler (virtual machines - VMs) kullanılıyordu. Sanal makineler, bir fiziksel bilgisayarda çalışan bir işletim sistemine benzer bir sanal işletim sistemi çalıştıran ve uygulama ve kaynakları birlikte paketleyen bir sanal ortam sağlarlar. Bu şekilde, uygulama geliştiricileri ve sistem yöneticileri, uygulamaların farklı bilgisayarlarda ve işletim sistemlerinde sorunsuz bir şekilde çalışmasını sağlayabilirler.
+Docker teknolojisinden önce, uygulama geliştirme ve dağıtımı için sanal makineler (virtual machines - VMs) kullanılıyordu. Sanal makineler, bir fiziksel bilgisayarda çalışan bir işletim sistemine benzer bir sanal işletim sistemi çalıştıran, uygulama ve kaynakları birlikte paketleyen bir sanal ortam sağlarlar. Bu şekilde, uygulama geliştiricileri ve sistem yöneticileri, uygulamaların farklı bilgisayarlarda ve işletim sistemlerinde sorunsuz bir şekilde çalışmasını sağlayabilirler.
 
 Ancak, sanal makinelerin kullanımı bazı dezavantajlar da taşır. Sanal makineler, daha fazla bellek ve işlemci gücü gerektirdiğinden daha yavaş performans gösterirler. Ayrıca, sanal makinelerin ölçeklendirilmesi zor ve yavaş olabilir. Bu nedenle, Docker teknolojisi, sanal makinelerin yerini alarak daha hafif ve hızlı bir alternatif sunar. 
 
