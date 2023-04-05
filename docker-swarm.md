@@ -32,3 +32,29 @@ docker service ls
 
 Docker Swarm, birden fazla Docker makinesi arasında Docker konteynerları yönetmek için güçlü bir araçtır. Bu adımları izleyerek, Docker Swarm kümenizi oluşturabilir, yönetebilir ve kontrol edebilirsiniz.
 <br>
+
+## Swarmpit
+
+Swarm kümesindeki konteynerlarınızı daha iyi yönetebilmek için ise Swarmpit'i kullanabilirsiniz. Swarmpit, Docker Swarm kümesindeki konteynerlarınızın durumunu, sağlığını ve performansını izlemek için kullanabileceğiniz web tabanlı bir arayüzdür.
+Swarmpit'i kurmak için aşağıdaki adımları izleyebilirsiniz:
+
+<img src="https://user-images.githubusercontent.com/100773960/229803105-1b1a8c19-9c51-423e-9ed0-0be6ba578809.png" width="300" height="200">
+
+1. Docker Swarm kümenizde Swarmpit konteynerı oluşturmak için aşağıdaki komutu çalıştırın:
+
+```
+docker run -it --rm \
+  --name swarmpit-installer \
+  --volume /var/run/docker.sock:/var/run/docker.sock \
+swarmpit/install:1.9
+```
+
+
+Bu komut, Swarmpit imajını indirir ve Swarm kümenizde "swarmpit" adında bir servis oluşturur. Swarmpit web arayüzü, varsayılan olarak yerel bilgisayarınızdaki 888 portuna yönlendirilir. Swarmpit konteynerının etkinleştirildiği Swarm yöneticisi olarak yapılandırılmış bir makinede çalıştırılması gerekir.
+
+2. Swarmpit web arayüzüne erişmek için bir web tarayıcısı açın ve yerel bilgisayarınızdaki kurulumda girilen (varsayılan 888) portuna gidin (örn: http://localhost:888).
+
+
+Swarmpit'in Docker Swarm kümenizde çalışması için Docker sürüm 17.09 veya daha yenisi gereklidir. Ayrıca, Swarmpit kullanmak için bir Docker Swarm kümeniz olmalıdır. 
+
+Swarmpit için daha fazla bilgiye (https://swarmpit.io/) adresinden ulaşabilirsiniz.
