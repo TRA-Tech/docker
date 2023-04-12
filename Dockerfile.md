@@ -2,7 +2,11 @@
 
 <img src="https://user-images.githubusercontent.com/100773960/228255022-ca779169-2594-422c-907e-286964c9a98a.png" width="250" height="250"> 
 
+Container yapısının metin bazlı olarak tutulduğu dosya Dockerfile’dır. Dosya sistemine eklenen Dockerfile (tam olarak böyle yazılmalıdır çünkü Docker CLI büyük küçük harf duyarlıdır.) içindeki Instruction’lar (yönergeler) Docker Daemon tarafından okunur, değerlendirilir ve yeni bir Image bu Instruction’lar çerçevesinde oluşturulur.
+
 Dockerfile, Docker konteynerlarının yapılandırılması ve imajlarının oluşturulması için kullanılan bir dosyadır. Dockerfile, konteyner için gereken tüm bileşenleri belirler ve bu bileşenleri kullanarak Docker imajının oluşturulmasını sağlar.
+
+
 
 Dockerfile, basit bir metin dosyasıdır ve birkaç anahtar kelime içerir. Bu anahtar kelimeler, Docker imajının oluşturulması için gereken adımları belirler. Dockerfile, bir temel imaj, ek bileşenler, çalıştırılacak komutlar ve yapılandırma ayarları gibi unsurları içerebilir.
 
