@@ -16,6 +16,22 @@ Docker, açık kaynaklı bir platform olması nedeniyle, geniş bir topluluk tar
 Ayrıca, Docker Hub gibi birçok farklı kaynak, hazır konteyner görüntüleri ve konfigürasyon dosyaları sunarak, uygulama geliştirme ve dağıtım sürecini hızlandırır.
 Docker, birçok farklı platformda çalışabilir ve uygulamaları hızlı ve güvenli bir şekilde dağıtmak için yaygın olarak kullanılır. Docker, uygulamaların taşınabilirliğini artırırken, uygulama geliştiricileri ve sistem yöneticileri arasındaki işbirliğini kolaylaştırır.
 
+ Docker'ın çalışma mantığı şu şekildedir:
+
+**1. Docker Image Oluşturma:** Docker uygulaması, uygulamanın çalıştırılacağı işletim sistemi ve uygulamanın gereksinimleri dahil olmak üzere bir "docker image" oluşturmak için kullanılır. Docker Image, uygulamanın çalıştırılması için gerekli tüm bileşenleri içeren bir sanal ortamdır.
+
+**2. Docker Container Oluşturma:** Docker Image, Docker Container'ın temelini oluşturur. Docker Container, Docker Image'ı çalıştırmak için kullanılır ve çalıştırıldığı cihaza veya sunucuya özgü herhangi bir konfigürasyona ihtiyaç duymaz. Docker Image'ın bir kopyası olarak düşünülebilir ve her bir Docker Container birbirinden izole edilmiştir.
+
+**3. Docker Hub:** Docker Hub, Docker Image'ların bulunduğu bir merkezdir. Kullanıcılar, Docker Hub'da bulunan hazır Docker Image'ları kullanarak kendi Docker Container'larını kolayca oluşturabilirler. Ayrıca, kullanıcılar kendi oluşturdukları Docker Image'ları da Docker Hub'a yükleyebilir ve diğer kullanıcılarla paylaşabilirler.
+
+**4. Dockerfile:** Dockerfile, Docker Image'ların nasıl oluşturulacağını belirleyen bir metin dosyasıdır. Kullanıcılar Dockerfile'ı kullanarak kendi özelleştirilmiş Docker Image'larını oluşturabilirler.
+
+**5. Docker Compose:** Docker Compose, birden fazla Docker Container'ın bir arada çalıştığı karmaşık uygulamaların yönetimini kolaylaştırır. Docker Compose, Docker Image'larına, Docker Container'larına ve Docker ağlarına erişerek, uygulamanın bütününü yönetir.
+
+**6. Docker Ağları:** Docker Ağları, Docker Container'larının birbirleriyle iletişim kurmasını sağlar. Ayrıca, Docker Container'ların belirli bir ağ arayüzüne bağlanmasına veya ağ arayüzünden çıkmasına izin verir.
+
+Docker'ın çalışma mantığı, uygulamaların hızlı bir şekilde geliştirilmesi, test edilmesi ve dağıtılması için gereken temel araçları sağlar. Docker, uygulamaların taşınabilirliğini arttırır ve farklı cihazlar arasında sorunsuz bir şekilde çalışmasını sağlar.
+
 Sonuç olarak, Docker, uygulama geliştirme ve dağıtım süreçlerinde büyük bir fark yaratan güçlü bir platformdur.
 
 Docker teknolojisinden önce, uygulama geliştirme ve dağıtımı için sanal makineler (virtual machines - VMs) kullanılıyordu. Sanal makineler, bir fiziksel bilgisayarda çalışan bir işletim sistemine benzer bir sanal işletim sistemi çalıştıran, uygulama ve kaynakları birlikte paketleyen bir sanal ortam sağlarlar. Bu şekilde, uygulama geliştiricileri ve sistem yöneticileri, uygulamaların farklı bilgisayarlarda ve işletim sistemlerinde sorunsuz bir şekilde çalışmasını sağlayabilirler.
