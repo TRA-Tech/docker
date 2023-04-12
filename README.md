@@ -26,13 +26,13 @@ Sanal mimari ve Konteyner mimarisinin farkları aşağıdaki gibidir.
 
 ![image](https://user-images.githubusercontent.com/100773960/228242016-c8b49f09-4a89-45ac-b1f1-b7595010c06a.png)
 
-<br>
+
 <br>
 
 ##
 
 
-![image](https://user-images.githubusercontent.com/100773960/231445218-02697a92-46d4-45e1-b96d-0aa0b51ba8bd.png)
+<img src="https://user-images.githubusercontent.com/100773960/231446433-cee44a61-4804-47e8-991d-a0d8cae53eff.png" width="750" height="350">
 
 Play with Docker (PWD), Docker teknolojilerini öğrenmek için kullanıcıların kullanabileceği bir çevrimiçi laboratuvardır. Bu platform, Docker'ın özelliklerini keşfetmek, Docker komutlarını öğrenmek ve uygulamaları Docker üzerinde çalıştırmak isteyenler için kullanımı kolay bir platformdur.
 
@@ -41,6 +41,11 @@ Play with Docker, kullanıcılara bir Docker çevrimiçi laboratuvarı sunar. Ku
 Play with Docker, Docker üzerinde uygulamaları çalıştırmak ve Docker ile ilgili konuları öğrenmek için kullanabileceğiniz birçok örnek uygulama sunar. Kullanıcılar, bu uygulamaları çalıştırarak Docker'ın nasıl çalıştığını, Docker konteynerlerinin nasıl oluşturulduğunu ve nasıl yönetildiğini öğrenebilirler.
 
 Play with Docker, herhangi bir kayıt işlemi gerektirmez ve tamamen ücretsizdir. Kullanıcılar, platformu ziyaret ederek hemen Docker özelliklerini keşfetmeye başlayabilirler. Play with Docker, Docker'ın özelliklerini öğrenmek ve Docker'ın nasıl çalıştığı hakkında deneyim kazanmak isteyenler için harika bir kaynak ve eğitim platformudur.
+
+PWD platformuna https://labs.play-with-docker.com/ adresinden erişebilirsiniz. Sitenin ana sayfasında, Docker imajları ve örnek uygulamalarla birlikte kullanım için birçok kaynak ve öğretici yer alır.
+## 
+<br>
+
 ## Docker Bileşenleri
 
 
