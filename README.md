@@ -32,7 +32,7 @@ Sanal mimari ve Konteyner mimarisinin farkları aşağıdaki gibidir.
 ##
 
 
-<img src="https://user-images.githubusercontent.com/100773960/231446433-cee44a61-4804-47e8-991d-a0d8cae53eff.png" width="750" height="350">
+<img src="https://user-images.githubusercontent.com/100773960/231446433-cee44a61-4804-47e8-991d-a0d8cae53eff.png" width="650" height="300">
 
 Play with Docker (PWD), Docker teknolojilerini öğrenmek için kullanıcıların kullanabileceği bir çevrimiçi laboratuvardır. Bu platform, Docker'ın özelliklerini keşfetmek, Docker komutlarını öğrenmek ve uygulamaları Docker üzerinde çalıştırmak isteyenler için kullanımı kolay bir platformdur.
 
