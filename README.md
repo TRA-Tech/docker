@@ -50,13 +50,13 @@ Sanal mimari ve Konteyner mimarisinin farkları aşağıdaki gibidir.
 
 <img src="https://user-images.githubusercontent.com/100773960/231446433-cee44a61-4804-47e8-991d-a0d8cae53eff.png" width="650" height="300">
 
-Play with Docker (PWD), Docker teknolojilerini öğrenmek için kullanıcıların kullanabileceği bir çevrimiçi laboratuvardır. Bu platform, Docker'ın özelliklerini keşfetmek, Docker komutlarını öğrenmek ve uygulamaları Docker üzerinde çalıştırmak isteyenler için kullanımı kolay bir platformdur.
+Play with Docker (PWD), Docker teknolojilerini öğrenmek için kullanıcıların kullanabileceği bir çevrimiçi laboratuvardır. Bu platform, Docker'ın özelliklerini keşfetmek, Docker komutlarını öğrenmek ve uygulamaları Docker üzerinde uygulama çalıştırmak isteyenler için kullanımı kolay bir platformdur.
 
 Play with Docker, kullanıcılara bir Docker çevrimiçi laboratuvarı sunar. Kullanıcılar, tarayıcılarında bir Docker çevresi çalıştırarak, Docker hub üzerindeki imajları indirip, imajlarla çalışabilirler. Platform ayrıca, Docker CLI'yi kullanarak komut satırından çalıştırmak için bir terminal sunar.
 
 Play with Docker, Docker üzerinde uygulamaları çalıştırmak ve Docker ile ilgili konuları öğrenmek için kullanabileceğiniz birçok örnek uygulama sunar. Kullanıcılar, bu uygulamaları çalıştırarak Docker'ın nasıl çalıştığını, Docker konteynerlerinin nasıl oluşturulduğunu ve nasıl yönetildiğini öğrenebilirler.
 
-Play with Docker, herhangi bir kayıt işlemi gerektirmez ve tamamen ücretsizdir. Kullanıcılar, platformu ziyaret ederek hemen Docker özelliklerini keşfetmeye başlayabilirler. Play with Docker, Docker'ın özelliklerini öğrenmek ve Docker'ın nasıl çalıştığı hakkında deneyim kazanmak isteyenler için harika bir kaynak ve eğitim platformudur.
+Play with Docker, Dockerhub üzerinden hesap açılarak kullanılabilir ve tamamen ücretsizdir. Kullanıcılar, platformu ziyaret ederek hemen Docker özelliklerini keşfetmeye başlayabilirler. Play with Docker, Docker'ın özelliklerini öğrenmek ve Docker'ın nasıl çalıştığı hakkında deneyim kazanmak isteyenler için harika bir kaynak ve eğitim platformudur.
 
 PWD platformuna https://labs.play-with-docker.com/ adresinden erişebilirsiniz. Sitenin ana sayfasında, Docker imajları ve örnek uygulamalarla birlikte kullanım için birçok kaynak ve öğretici yer alır.
 ## 
