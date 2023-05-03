@@ -14,7 +14,7 @@ Docker, uygulamaların taşınabilirliğini sağlayan ve yazılım geliştirme s
 
 Docker, açık kaynaklı bir platform olması nedeniyle, geniş bir topluluk tarafından desteklenmektedir ve sürekli olarak geliştirilmektedir. Docker, hızlı ve kolay bir şekilde uygulama oluşturmanızı, dağıtmanızı ve yönetmenizi sağlar.
 Ayrıca, Docker Hub gibi birçok farklı kaynak, hazır konteyner görüntüleri ve konfigürasyon dosyaları sunarak, uygulama geliştirme ve dağıtım sürecini hızlandırır.
-Docker, birçok farklı platformda çalışabilir ve uygulamaları hızlı ve güvenli bir şekilde dağıtmak için yaygın olarak kullanılır. Docker, uygulamaların taşınabilirliğini artırırken, uygulama geliştiricileri ve sistem yöneticileri arasındaki işbirliğini kolaylaştırır.
+Docker, birçok farklı platformda çalışabilir ve uygulamaları hızlı ve güvenli bir şekilde dağıtmak için yaygın olarak kullanılır. Uygulamaların taşınabilirliğini artırırken, uygulama geliştiricileri ve sistem yöneticileri arasındaki işbirliğini kolaylaştırır.
 
  Docker'ın çalışma mantığı şu şekildedir:
 
@@ -65,7 +65,7 @@ PWD platformuna https://labs.play-with-docker.com/ adresinden erişebilirsiniz. 
 ## Docker Bileşenleri
 
 
-Docker Engine, Docker'ın temel bileşenidir ve uygulamaların Docker konteynerleri içinde çalıştırılmasını sağlayan bir açık kaynaklı konteyner çalıştırma motorudur. Docker Engine, işletim sistemi düzeyinde sanallaştırma teknolojisi kullanır ve birden fazla konteynerin aynı işletim sistemi çekirdeği üzerinde çalışmasına olanak tanır.
+Docker Engine, Docker'ın temel bileşenidir ve uygulamaların Docker konteynerleri içinde çalıştırılmasını sağlayan bir açık kaynaklı konteyner çalıştırma motorudur. İşletim sistemi düzeyinde sanallaştırma teknolojisi kullanır ve birden fazla konteynerin aynı işletim sistemi çekirdeği üzerinde çalışmasına olanak tanır.
 
 Docker Engine, birçok bileşeni içerir. Bunlar arasında Docker Daemon, Docker API, Docker CLI, Docker imajları ve Docker registry yer alır.
 
@@ -75,7 +75,7 @@ Docker Engine, birçok bileşeni içerir. Bunlar arasında Docker Daemon, Docker
 - **Docker imajları**, konteynerlerin temel yapı taşıdır. İmajlar, bir uygulama ve bağımlılıklarını içerir ve konteynerlerin oluşturulmasında kullanılır.
 - **Docker registry**, Docker imajlarının depolanmasını ve paylaşılmasını sağlar. Docker Hub, Docker'ın varsayılan imaj deposudur ancak farkı registry sunucuları da özelleştirilerek kullanılabilir.
 
-Docker Engine, birçok platformda çalışabilir ve birçok programlama dili ve araç setiyle uyumlu olabilir. Bu nedenle, Docker Engine, uygulamaların hızlı ve güvenli bir şekilde dağıtılması için yaygın olarak kullanılan bir teknolojidir.
+Docker Engine, birçok platformda çalışabilir ve birçok programlama dili ve araç setiyle uyumlu olabilir. Bu nedenle uygulamaların hızlı ve güvenli bir şekilde dağıtılması için yaygın olarak kullanılan bir teknolojidir.
 
 ## Docker Container
 
